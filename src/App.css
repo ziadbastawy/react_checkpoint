@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  height: 100vh;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .App-logo {
@@ -35,4 +39,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  background-color: azure;
+  padding: 4rem;
+  border-radius: 1em;
+  
+}
+.card .submit-btn {
+  text-align: center;
 }
