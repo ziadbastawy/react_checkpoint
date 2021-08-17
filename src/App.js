@@ -1,5 +1,5 @@
 import './App.css';
-import { Container, Row, Col, Form, Button, Image } from "react-bootstrap";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
 
 function App() {
   return (
